@@ -31,13 +31,14 @@ h1{
 h2{
 	font-size: 29px;
 	border-style: double;
+
 }
 h1,h2{
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 400;
 	margin: 0;
 }
-.content-wrap{
+.content-wrap {
 	max-width: 800;
 	width: 85% ;
 	margin: 0 auto;
@@ -120,6 +121,7 @@ display: inline-block;
 	margin-top: 0px;
 };
 
+
 	/*background: #A1C6D7;*/
 
 .job-item{
@@ -129,6 +131,16 @@ display: inline-block;
 }
 
 /*educatiom*/
+
+/*skillset*/
+
+.skillset {
+	display: grid;
+	margin-right: 10%;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 20px;
+}
+/*skillset*/
 
 .education
 {
